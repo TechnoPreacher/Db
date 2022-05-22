@@ -1,0 +1,21 @@
+{
+    "name": "technopreacher/builder",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ns\\builder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TechnoPreacher",
+            "email": "nik.nik.sulima@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aigletter/contracts": "dev-master",
+      "ext-pdo": "*"
+    }
+}
